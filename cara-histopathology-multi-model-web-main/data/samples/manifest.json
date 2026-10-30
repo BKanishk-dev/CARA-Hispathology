@@ -1,0 +1,135 @@
+[
+  {
+    "file": "sample_01_Adrenal_gland.jpg",
+    "class": "Adrenal_gland",
+    "label": "Adrenal gland",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_02_Bile-duct.jpg",
+    "class": "Bile-duct",
+    "label": "Bile duct",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_03_Bladder.jpg",
+    "class": "Bladder",
+    "label": "Bladder",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_04_Breast.jpg",
+    "class": "Breast",
+    "label": "Breast",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_05_Cervix.jpg",
+    "class": "Cervix",
+    "label": "Cervix",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_06_Colon.jpg",
+    "class": "Colon",
+    "label": "Colon",
+    "synthetic": false,
+    "low_quality": true
+  },
+  {
+    "file": "sample_07_Esophagus.jpg",
+    "class": "Esophagus",
+    "label": "Esophagus",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_08_HeadNeck.jpg",
+    "class": "HeadNeck",
+    "label": "Head & Neck",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_09_Kidney.jpg",
+    "class": "Kidney",
+    "label": "Kidney",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_10_Liver.jpg",
+    "class": "Liver",
+    "label": "Liver",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_11_Lung.jpg",
+    "class": "Lung",
+    "label": "Lung",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_12_Ovarian.jpg",
+    "class": "Ovarian",
+    "label": "Ovarian",
+    "synthetic": false,
+    "low_quality": true
+  },
+  {
+    "file": "sample_13_Pancreatic.jpg",
+    "class": "Pancreatic",
+    "label": "Pancreatic",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_14_Prostate.jpg",
+    "class": "Prostate",
+    "label": "Prostate",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_15_Skin.jpg",
+    "class": "Skin",
+    "label": "Skin",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_16_Stomach.jpg",
+    "class": "Stomach",
+    "label": "Stomach",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_17_Testis.jpg",
+    "class": "Testis",
+    "label": "Testis",
+    "synthetic": false,
+    "low_quality": false
+  },
+  {
+    "file": "sample_18_Thyroid.jpg",
+    "class": "Thyroid",
+    "label": "Thyroid",
+    "synthetic": false,
+    "low_quality": true
+  },
+  {
+    "file": "sample_19_Uterus.jpg",
+    "class": "Uterus",
+    "label": "Uterus",
+    "synthetic": false,
+    "low_quality": false
+  }
+]

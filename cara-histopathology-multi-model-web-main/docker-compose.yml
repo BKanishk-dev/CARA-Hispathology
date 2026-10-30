@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    environment:
+      CARA_MODE: ${CARA_MODE:-auto}            # auto | demo | real
+      CARA_DEVICE: ${CARA_DEVICE:-auto}
+      CARA_PRELOAD: ${CARA_PRELOAD:-1}
+      ALLOWED_ORIGINS: ${ALLOWED_ORIGINS:-*}
+      CARA_PANNUKE_DIR: /srv/cara/data/pannuke
+    volumes:
+      - ./data/pannuke:/srv/cara/data/pannuke          # place the 3 PanNuke folds here (real mode)
+      - ./backend/checkpoints:/srv/cara/backend/checkpoints
+      - ./backend/results:/srv/cara/backend/results
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    depends_on:
+      - backend
+    ports:
+      - "${FRONTEND_PORT:-3000}:80"
+    restart: unless-stopped

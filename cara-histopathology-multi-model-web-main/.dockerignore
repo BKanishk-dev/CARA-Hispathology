@@ -1,0 +1,7 @@
+**/node_modules
+**/__pycache__
+**/*.pyc
+frontend/dist
+data/pannuke
+.git
+.env
